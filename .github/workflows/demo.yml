@@ -31,7 +31,6 @@ jobs:
           name: dist-files
           path: |
             package.json
-            dist
 
   deploy:
     needs: build
