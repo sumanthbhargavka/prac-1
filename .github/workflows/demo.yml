@@ -47,6 +47,7 @@ jobs:
             package.json
   deploy:
     needs: build
+    environment: Prod
     runs-on: ubuntu-latest
     steps:
       - name: Get build Artifacts
